@@ -17,6 +17,8 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: d755rovpdd1tml
-  username: ejhryvfipeuznv
-  password: vrQ1QpzoVfl0NVXdvYakCLwJpn
+  database: d5c563nkci0t19
+  username: tyesnotoqsljer
+  password: zEWDHyEXxN9MbNou_IGlQAgsN6
+  host: ec2-107-22-183-27.compute-1.amazonaws.com
+  port: 5432
