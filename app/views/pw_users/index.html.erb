@@ -1,0 +1,25 @@
+<h1>Listing pw_users</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @pw_users.each do |pw_user| %>
+  <tr>
+    <td><%= pw_user.name %></td>
+    <td><%= pw_user.email %></td>
+    <td><%= link_to 'Show', pw_user %></td>
+    <td><%= link_to 'Edit', edit_pw_user_path(pw_user) %></td>
+    <td><%= link_to 'Destroy', pw_user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Pw user', new_pw_user_path %>

@@ -1,4 +1,7 @@
 DemoApp::Application.routes.draw do
+  resources :pw_users
+
+
   resources :users
 
 
